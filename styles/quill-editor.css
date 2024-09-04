@@ -1,0 +1,107 @@
+/* Customize Quill editor styles */
+.ql-snow .ql-editor img {
+  margin: 20px;
+  height: 176px;
+  width: 256px;
+}
+
+/* Adjust image alignment for LTR and RTL text */
+.ltr .ql-snow .ql-editor img {
+  margin-left: 0px;
+}
+
+.rtl .ql-snow .ql-editor img {
+  margin-right: 0px;
+}
+
+/* Dark mode styles */
+.dark .ql-toolbar.ql-snow,
+.dark .ql-container.ql-snow {
+  border-color: #17263c;
+}
+
+.dark .ql-container.ql-snow {
+  background-color: #121e32;
+}
+
+/* Quill toolbar styles */
+.ql-toolbar.ql-snow {
+  box-sizing: border-box;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-width: 1px;
+  border-color: #e0e6ed !important;
+  padding: 8px;
+  font-family: Nunito, sans-serif;
+}
+
+/* Dark mode for Quill toolbar */
+.dark .ql-toolbar.ql-snow,
+.dark .ql-container.ql-snow {
+  border-color: #17263c !important;
+}
+
+/* Quill container styles */
+.ql-container.ql-snow {
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-width: 1px;
+  border-top: 0px !important;
+  border-color: #e0e6ed !important;
+}
+
+/* Quill editor styles */
+.ql-snow .ql-editor {
+  max-height: 200px;
+  min-height: 200px;
+  overflow: auto;
+}
+
+/* Right-to-left text alignment */
+.rtl .ql-snow .ql-editor {
+  text-align: right;
+}
+
+/* Dark mode for Quill stroke styles */
+.dark .ql-snow .ql-stroke {
+  stroke: #888ea8;
+}
+
+/* Dark mode for Quill picker styles */
+.dark .ql-snow .ql-picker,
+.dark .ql-snow .ql-editor h1,
+.dark .ql-snow .ql-editor p {
+  color: #888ea8;
+}
+
+/* Adjust picker alignment for RTL */
+.rtl .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+  right: auto !important;
+  left: 0px;
+}
+
+/* Dark mode for Quill tooltip styles */
+.dark .ql-snow .ql-tooltip {
+  background-color: #060818;
+  border-color: #17263c;
+  color: #888ea8;
+}
+
+/* Customize tooltip input */
+.ql-snow .ql-tooltip input[type="text"] {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Dark mode for tooltip input */
+.dark .ql-snow .ql-tooltip input[type="text"] {
+  background-color: #121e32;
+  border-color: #17263c;
+  color: #888ea8;
+}
+
+/* Adjust format toolbar margin for RTL */
+.rtl .ql-toolbar.ql-snow .ql-formats {
+  margin-right: 0px !important;
+  margin-left: 15px;
+}
