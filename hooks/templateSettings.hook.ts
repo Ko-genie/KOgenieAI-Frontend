@@ -40,7 +40,32 @@ import {
   getGeneratedCsvList,
   CsvDeleteHandleApi,
   getCsvDetailsApi,
+  next,
 } from "@/service/templateSettings";
+
+import { errorToast, processResponse } from "@/utils/functions";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
+import { useForm, Controller } from "react-hook-form";
+import { toast } from "react-toastify";
+import { useSubscriptionStatus } from "./paymentSettings.hook";
+
+export const useGetCategoriesData = (page: number) => {
+  const [search, setSearch] = useState<any>("");
+  const { data, isLoading } = useQuery({
+    queryKey: ["categoriesData", page, search],
+    queryFn: () => getCategoriesDataApi(page, search),
+  });
+
+  return {
+    data,
+    isLoading,
+    setSearch,
+    search,
+  };
+};
+...
 import { errorToast, processResponse } from "@/utils/functions";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useRouter } from "next/router";
