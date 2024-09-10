@@ -28,8 +28,6 @@ const LoginCover = () => {
   const demoUsers = [
     { name: "User", email: "user@email.com", password: "123456" },
     { name: "Admin", email: "admin@email.com", password: "123456" },
-    { name: "Avanish", email: "singhavanish642@gmail.com", password: "123456" },
-    
     // Add more demo users as needed
   ];
 
