@@ -83,7 +83,7 @@ const Header = () => {
       <div className="border-b border-[#f1f3f4] dark:border-dark">
         <div className="relative flex h-[70px] w-full items-center justify-between bg-white px-5 py-2.5 dark:bg-black">
           <div className="horizontal-logo flex items-center justify-between ltr:mr-2 rtl:ml-2 lg:hidden">
-            <Link href="/" className="main-logo flex shrink-0 items-center">
+            <Link href="https://kogenie-e-solutions.vercel.app" className="main-logo flex shrink-0 items-center">
               <img
                 className="ml-[5px] h-[46px] flex-none"
                 src={settings?.site_logo ? settings?.site_logo : " "}

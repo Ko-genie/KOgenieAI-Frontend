@@ -1,17 +1,17 @@
 .tippy-box[data-theme~='primary'] {
-    background-color: #4361ee;
+    background-color: #a78bfa;
 }
 
 .tippy-box[data-theme~='primary'][data-placement^='top'] > .tippy-arrow::before {
-    border-top-color: #4361ee;
+    border-top-color: #a78bfa;
 }
 
 .tippy-box[data-theme~='success'] {
-    background-color: #00ab55;
+    background-color: #ec4899;
 }
 
 .tippy-box[data-theme~='success'][data-placement^='top'] > .tippy-arrow::before {
-    border-top-color: #00ab55;
+    border-top-color: #ec4899;
 }
 
 .tippy-box[data-theme~='info'] {

@@ -764,7 +764,7 @@ pre.hljs {
 .animate-gradient {
   animation: animate-gradient 6s linear infinite alternate;
   background-size: 200% auto;
-  background-image: linear-gradient(-45deg, #524eb7, #1abc9c, #1abc9c, #3f51b5);
+  background-image: linear-gradient(to right, #a78bfa, #ec4899);
 }
 @keyframes spin {
   0% {
@@ -798,7 +798,7 @@ pre.hljs {
 .animate-gradient-for-home-page-banner::before {
   animation: pulsate-gradient 6s ease-in-out infinite alternate;
   background-size: 200% auto;
-  background-image: linear-gradient(141deg, #524eb7, #3f51b5, #1abc9c, #3f51b5);
+  background-image: linear-gradient(to right, #a78bfa, #ec4899);
 }
 .react-datepicker-wrapper {
   width: 100%;

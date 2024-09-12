@@ -28,8 +28,8 @@
   height: 0;
   margin: 8px;
   box-sizing: border-box;
-  border: 32px solid #1abc9c;
-  border-color: #1abc9c transparent #1abc9c transparent;
+  border: 32px solid #a78bfa;
+  border-color: #a78bfa transparent #a78bfa transparent;
   animation: loader-css-animate 1.2s infinite;
 }
 @keyframes loader-css-animate {

@@ -30,7 +30,7 @@ const RecoverIdCover = () => {
     <div className="flex min-h-screen">
       <div className="relative hidden min-h-screen w-1/2 flex-col items-center justify-center p-4 text-white before:absolute before:-z-10 before:h-full before:w-full before:bg-black before:bg-[url('/assets/images/ai-intro.gif')] before:bg-cover before:bg-left before:bg-no-repeat before:bg-blend-darken lg:flex">
         <div>
-          <Link href={`/`}>
+          <Link href={"https://kogenie-e-solutions.vercel.app"}>
             <img
               src={settings?.site_logo ? settings?.site_logo : " "}
               alt=""

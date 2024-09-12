@@ -14,7 +14,7 @@ export default function HomeFooter() {
           <div className="mx-auto w-full max-w-7xl">
             <div className="pb-10 md:pb-20">
               <div className="my-12 flex items-center justify-between border-y dark:border-dark py-8">
-                <Link href={`/`}>
+                <Link href={"https://kogenie-e-solutions.vercel.app"}>
                   <div className="relative float-left flex items-center text-xl text-black max-[991px]:mr-auto max-[767px]:pl-0">
                     <img
                       src={settings?.site_logo ? settings?.site_logo : " "}
