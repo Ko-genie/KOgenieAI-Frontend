@@ -38,7 +38,6 @@ export default function HomePageNav({ landingLogo }: any) {
         scrolled && "bg-black"
       }  py-3 text-white lg:block`}
     >
-      
       <div className="px-5 md:px-10">
         <div className="mx-auto flex w-full max-w-screen-2xl auto-cols-auto grid-cols-[auto_max-content] items-center justify-between gap-[0px] lg:grid-cols-[176px_auto]">
           <div className="flex w-9/12 items-center gap-x-4">

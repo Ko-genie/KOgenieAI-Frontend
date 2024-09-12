@@ -109,7 +109,7 @@ const Sidebar = () => {
       >
         <div className="h-full bg-white dark:bg-black">
           <div className="flex items-center justify-between px-4 py-3">
-            <Link href="https://kogenie-e-solutions.vercel.app" className="main-logo flex shrink-0 items-center">
+            <Link href="/" className="main-logo flex shrink-0 items-center">
               <img
                 className="ml-[5px] h-[46px] flex-none"
                 src={settings?.site_logo ? settings?.site_logo : " "}
